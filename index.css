@@ -104,15 +104,41 @@ header {
 }
 
 #SecondSection {
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 30px 70px 30px 70px;
   margin: 0;
   background-color: #2e3038;
 }
-
+#SecondSection #columnDiv {
+  columns: 2;
+}
 #SecondSection h2 {
   color: white;
+  margin-top: 0px;
+  font-weight: lighter;
 }
 #SecondSection p {
   color: rgb(139, 139, 139);
+}
+
+#ThirdSection {
+  padding: 30px 70px 30px 70px;
+  display: flex;
+  flex-direction: column;
+}
+#ThirdSection h2 {
+  color: white;
+  font-weight: lighter;
+  margin-top: 0;
+}
+#ThirdSection p {
+  color: rgb(139, 139, 139);
+  margin-top: 0;
+  width: 420px;
+}
+#ThirdSection button {
+  height: 40px;
+  width: 120px;
+  font-family: prata;
+  background-color: rgb(255, 255, 44);
+  border: none;
 }
